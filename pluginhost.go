@@ -56,7 +56,7 @@ type Service struct {
 }
 
 func init() {
-	togo.RegisterProviderFunc("plugin-host", togo.PriorityService, func(k *togo.Kernel) error {
+	togo.RegisterProviderFunc("plugin-host", togo.PriorityLate+10, func(k *togo.Kernel) error {
 		s := &Service{k: k, store: newMemStore(), caps: map[string]CapabilityFunc{}, enabled: map[string]bool{}}
 		k.Set("plugin-host", s)
 		s.Refresh()
