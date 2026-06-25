@@ -1,0 +1,6 @@
+github.com/go-chi/chi/v5 v5.1.0 h1:acVI1TYaD+hhedDJ3r54HyA6sExp3HfXq7QWEEY/xMw=
+github.com/go-chi/chi/v5 v5.1.0/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
+github.com/togo-framework/togo v0.20.1 h1:sygmzwKZ2WBYlxxFk+SaCcZgAKp0LtjA4cHcdcoGR4g=
+github.com/togo-framework/togo v0.20.1/go.mod h1:/ybNefL1VWo0Pod32+YwW7ZgyInyXzOq3jGPBjUJYtc=
+github.com/togo-framework/workflow v0.1.0 h1:FXASEoE31y2Z+uz98j+fG2QoPvNri4pdmr0MtZFgdPg=
+github.com/togo-framework/workflow v0.1.0/go.mod h1:feM1PD53YBE0VdnYe0UkImV7W3DYdsYoTIDLRYHUCeE=
